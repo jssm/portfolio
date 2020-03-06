@@ -1,0 +1,12 @@
+.icons-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+.social-media-app {
+  color: black;
+  margin: 0 2rem;
+}

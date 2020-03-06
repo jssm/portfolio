@@ -1,0 +1,63 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* App Styles */
+
+.App {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  padding: 0.66rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: #000;
+}
+
+h2 {
+  padding: 0.66rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  color: #000;
+}
+
+h3 {
+  padding: 0.66rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #000;
+}
+
+h4 {
+  padding: 0.66rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+h5 {
+  padding: 0.66rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+h6 {
+  padding: 0.66rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.padding-for-navbar {
+  padding: 55px 0;
+}
