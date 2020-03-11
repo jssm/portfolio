@@ -1,12 +1,25 @@
+.footer-bar {
+  background-color: #000;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
 .icons-list {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  background-color: #fff;
 }
 
 .social-media-app {
-  color: black;
+  color: #fff;
   margin: 0 2rem;
+}
+
+.social-media-app:hover {
+  color: #ef1541;
 }

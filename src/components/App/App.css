@@ -4,6 +4,10 @@ html {
   font-size: 18px;
 }
 
+body {
+  padding-top: 70px; /* to account for the nav-bar */
+}
+
 @media only screen and (max-width: 560px) {
   html {
     font-size: 15px;
@@ -13,7 +17,6 @@ html {
 /* App Styles */
 
 .App {
-  font-family: "Raleway", sans-serif;
 }
 
 h1 {
@@ -58,6 +61,18 @@ h6 {
   color: #000;
 }
 
-.padding-for-navbar {
-  padding: 55px 0;
+a {
+  text-decoration: none !important;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #ef1541;
 }

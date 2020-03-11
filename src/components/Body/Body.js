@@ -6,7 +6,7 @@ import "./Body.css";
 //so it can be a funcional component (simply return the JSX code to render)
 
 function Body() {
-  return <div>Body is here</div>;
+  return <div className="large-test-chunk">Body is here</div>;
 }
 
 export default Body;

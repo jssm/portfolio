@@ -1,6 +1,6 @@
 import React from "react";
-import Menu from "../Menu/Menu";
-import Header from "../Header/Header";
+import NavBar from "../NavBar/NavBar";
+import About from "../About/About";
 import Body from "../Body/Body";
 import Footer from "../Footer/Footer";
 import "./App.css";
@@ -12,10 +12,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="padding-for-navbar">
-        <Menu />
-        <Header />
-        <Body />
+      <div>
+        <NavBar />
+        <About />
+        {/* <Body /> */}
         <Footer />
       </div>
     );

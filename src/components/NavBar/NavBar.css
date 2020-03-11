@@ -1,0 +1,29 @@
+.nav-bar {
+  background-color: #000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-bar-items {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.nav-bar-item {
+  padding: 0px 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.logo {
+  padding-left: 15px;
+  width: 80px;
+  height: 45px;
+}

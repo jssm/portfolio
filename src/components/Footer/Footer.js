@@ -1,6 +1,7 @@
 import React from "react";
 import "../App/App.css";
 import "./Footer.css";
+import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -9,7 +10,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
-    <div>
+    <div className="footer-bar">
       <div className="icons-list">
         <a
           className="social-media-app"

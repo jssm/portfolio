@@ -1,9 +1,13 @@
+.rounded-corners {
+  border-radius: 50px;
+}
+
 .header-grid-container {
   margin: 50px;
   display: grid;
   grid-template-columns: 300px auto;
   grid-template-rows: 50% 50%;
-  grid-column-gap: 10px;
+  grid-column-gap: 50px;
   grid-row-gap: 15px;
 }
 
@@ -32,4 +36,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App/App.css";
-import "./Header.css";
+import "./About.css";
 import photo_image from "../../images/photo.jpeg";
 
 //This component is simple enough to just have a render() method,
@@ -11,10 +11,9 @@ function Header() {
     <div className="header-grid-container">
       <img
         src={photo_image}
-        width="300"
-        height="404"
-        className="header-grid-photo"
-        alt="Photo"
+        width="100%"
+        className="header-grid-photo rounded-corners"
+        alt="JM"
       />
       <h2 className="header-grid-hello header-text">Hello! My name is Joana</h2>
       <h4 className="header-grid-description header-text">
