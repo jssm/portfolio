@@ -6,6 +6,7 @@ html {
 
 body {
   padding-top: 70px; /* to account for the nav-bar */
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 560px) {
