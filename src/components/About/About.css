@@ -1,40 +1,16 @@
-.rounded-corners {
+.my-photo {
   border-radius: 50px;
+  width: 200px;
 }
 
-.header-grid-container {
+.header-container {
   margin: 50px;
-  display: grid;
-  grid-template-columns: 300px auto;
-  grid-template-rows: 50% 50%;
-  grid-column-gap: 50px;
-  grid-row-gap: 15px;
-}
-
-.header-grid-photo {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.header-grid-hello {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.header-grid-description {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }

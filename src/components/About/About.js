@@ -8,17 +8,14 @@ import photo_image from "../../images/photo.jpeg";
 
 function Header() {
   return (
-    <div className="header-grid-container">
-      <img
-        src={photo_image}
-        width="100%"
-        className="header-grid-photo rounded-corners"
-        alt="JM"
-      />
-      <h2 className="header-grid-hello header-text">Hello! My name is Joana</h2>
-      <h4 className="header-grid-description header-text">
-        I'm a Software Engineer who loves to get insights out of data.
-      </h4>
+    <div className="header-container">
+      <img src={photo_image} className="my-photo" alt="JM" />
+      <div className="header-text">
+        <h2 className="header-grid-hello">Hello! My name is Joana</h2>
+        <h4 className="header-grid-description">
+          I'm a Software Engineer who loves to get insights out of data.
+        </h4>
+      </div>
     </div>
   );
 }
