@@ -1,0 +1,27 @@
+.project {
+  width: 80%;
+  margin: 20px 0px;
+  border: 2px solid #ef1541;
+  border-radius: 10px;
+}
+
+/* for the children of the elements of class project */
+.project > * {
+  padding: 0px 10px;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-category {
+  text-align: center;
+}
+
+.project-description {
+  text-align: justify;
+}
+
+.project-link {
+  text-align: center;
+}

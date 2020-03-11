@@ -3,7 +3,7 @@
   width: 200px;
 }
 
-.header-container {
+.about-container {
   margin: 50px;
   display: flex;
   flex-direction: column;
@@ -11,6 +11,6 @@
   align-items: center;
 }
 
-.header-text {
+.about-text {
   text-align: center;
 }
