@@ -9,7 +9,7 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div className="nav-bar">
-      <img src={logo_image} className="logo" alt="Logo Image" />
+      <img src={logo_image} className="logo" alt="Logo JM" />
       <div className="nav-bar-items">
         <a href="" className="nav-bar-item">
           About

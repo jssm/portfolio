@@ -1,7 +1,6 @@
 import React from "react";
 import "../App/App.css";
 import "./Footer.css";
-import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
