@@ -12,10 +12,6 @@ import logo_image from "../../images/white_logo.png";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <BrowserRouter>

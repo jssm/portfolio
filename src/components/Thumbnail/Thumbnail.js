@@ -1,5 +1,4 @@
 import React from "react"; // Import the Component component from React
-import { Link } from "react-router-dom"; // Import the Link component
 import "../App/App.css";
 import "../Thumbnail/Thumbnail.css";
 
@@ -14,7 +13,7 @@ function Thumbnail(props) {
       <div className="project-category">{props.category}</div>
       <div className="project-description">{props.description}</div>
       <div className="project-link">
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           Link to project
         </a>
       </div>
