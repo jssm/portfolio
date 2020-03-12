@@ -9,15 +9,15 @@ function CurriculumVitae() {
   return (
     // Render a Thumbnail component
     <div className="thumbnail-rail">
-      <h5>CV</h5>
+      <h5>Academic Experience</h5>
       <Thumbnail
-        title="bla bla"
+        title="Test Experience"
         category="cat 1"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        link="test link"
+        link="https://www.linkedin.com/in/joana-sofia-matos/"
       />
       <Thumbnail
-        title="bli bli"
+        title="Test Experience 2"
         category="cat 2"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         link="test link"

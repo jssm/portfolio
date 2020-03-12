@@ -10,10 +10,14 @@ import "../Thumbnail/Thumbnail.css";
 function Thumbnail(props) {
   return (
     <div className="project">
-      <div className="project-title">{props.title}</div>
+      <h6 className="project-title">{props.title}</h6>
       <div className="project-category">{props.category}</div>
       <div className="project-description">{props.description}</div>
-      <div className="project-link">{props.link}</div>
+      <div className="project-link">
+        <a href={props.link} target="_blank">
+          Link to project
+        </a>
+      </div>
     </div>
   );
 }

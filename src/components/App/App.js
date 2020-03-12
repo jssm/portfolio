@@ -24,25 +24,25 @@ class App extends React.Component {
             <img src={logo_image} className="logo" alt="Logo JM" />
             <div className="nav-bar-items">
               {/* Set up the Links */}
-              <Link to="/" className="nav-bar-item">
+              <Link to="/portfolio" className="nav-bar-item">
                 About
               </Link>
-              <Link to="/curriculum-vitae" className="nav-bar-item">
+              <Link to="/portfolio/curriculum-vitae" className="nav-bar-item">
                 Curriculum Vitae
               </Link>
-              <Link to="/projects" className="nav-bar-item">
+              <Link to="/portfolio/projects" className="nav-bar-item">
                 Projects
               </Link>
             </div>
           </div>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/portfolio">
               <About />
             </Route>
-            <Route path="/curriculum-vitae">
+            <Route path="/portfolio/curriculum-vitae">
               <CurriculumVitae />
             </Route>
-            <Route path="/projects">
+            <Route path="/portfolio/projects">
               <Projects />
             </Route>
           </Switch>

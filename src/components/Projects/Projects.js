@@ -10,7 +10,7 @@ function Projects() {
     // Render a Thumbnail component
     <div className="thumbnail-rail">
       <h5>Projects</h5>
-      <Thumbnail title="ble ble" category="" description="" link="" />
+      <Thumbnail title="Test Project" category="" description="" link="" />
     </div>
   );
 }

@@ -5,23 +5,40 @@
   border-radius: 10px;
 }
 
-/* for the children of the elements of class project */
-.project > * {
-  padding: 0px 10px;
-}
-
 .project-title {
   text-align: center;
+  padding: 0px 20px;
 }
 
 .project-category {
   text-align: center;
+  padding: 0px 20px 10px 20px;
+  color: #777;
 }
 
 .project-description {
   text-align: justify;
+  padding: 0px 20px;
 }
 
 .project-link {
+  padding: 10px 20px;
   text-align: center;
+}
+
+/* overriding App.css <a> tag settings for .project-link class children  */
+.project-link > a {
+  text-decoration: underline;
+}
+
+.project-link > a:link {
+  color: #000;
+}
+
+.project-link > a:visited {
+  color: #000;
+}
+
+.project-link > a:hover {
+  color: #ef1541;
 }
