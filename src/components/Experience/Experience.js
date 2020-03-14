@@ -5,11 +5,11 @@ import Thumbnail from "../Thumbnail/Thumbnail";
 //This component is simple enough to just have a render() method,
 //so it can be a funcional component (simply return the JSX code to render)
 
-function CurriculumVitae() {
+function Experience() {
   return (
     // Render a Thumbnail component
     <div className="thumbnail-rail">
-      <h5>Academic Experience</h5>
+      <h5>Professional Experience</h5>
       <Thumbnail
         title="Test Experience"
         category="cat 1"
@@ -24,8 +24,11 @@ function CurriculumVitae() {
         technologies={["KNIME", "Python", "Scikit-learn"]}
         link="test link"
       />
+
+      <h5>Professional Training</h5>
+      <h5>Education</h5>
     </div>
   );
 }
 
-export default CurriculumVitae;
+export default Experience;

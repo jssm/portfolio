@@ -1,6 +1,6 @@
 import React from "react";
 // Import components
-import CurriculumVitae from "../CurriculumVitae/CurriculumVitae";
+import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
@@ -23,8 +23,8 @@ class App extends React.Component {
               <Link to="/portfolio" className="nav-bar-item">
                 About
               </Link>
-              <Link to="/portfolio/curriculum-vitae" className="nav-bar-item">
-                Curriculum Vitae
+              <Link to="/portfolio/experience" className="nav-bar-item">
+                Experience
               </Link>
               <Link to="/portfolio/projects" className="nav-bar-item">
                 Projects
@@ -35,8 +35,8 @@ class App extends React.Component {
             <Route exact path="/portfolio">
               <About />
             </Route>
-            <Route path="/portfolio/curriculum-vitae">
-              <CurriculumVitae />
+            <Route path="/portfolio/experience">
+              <Experience />
             </Route>
             <Route path="/portfolio/projects">
               <Projects />

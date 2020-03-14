@@ -9,10 +9,9 @@ function Projects() {
   return (
     // Render a Thumbnail component
     <div className="thumbnail-rail">
-      <h5>Projects</h5>
+      <h5>Personal Projects</h5>
       <Thumbnail
         title="Portfolio Site"
-        category="Personal Projects"
         description="Elaboration of this very site, created in order to document my academic and professional experience, as well as any personal projects. The code is available on GitHub, through the link found below."
         technologies={["JavaScript", "ReactJS"]}
         time_interval="February - March 2020"
