@@ -16,6 +16,13 @@
   color: #777;
 }
 
+.project-date-location {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  padding: 0px 20px;
+}
+
 .project-description {
   text-align: justify;
   padding: 0px 20px;

@@ -11,6 +11,9 @@ function Thumbnail(props) {
     <div className="project">
       <h6 className="project-title">{props.title}</h6>
       <div className="project-category">{props.category}</div>
+      <div className="project-date-location">
+        <div>{props.time_interval}</div> <div>{props.location}</div>
+      </div>
       <div className="project-description">{props.description}</div>
       <div className="project-technologies">
         Used technologies: {props.technologies.join(", ")}

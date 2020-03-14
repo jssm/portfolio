@@ -15,6 +15,8 @@ function Projects() {
         category="Personal Projects"
         description="Elaboration of this very site, created in order to document my academic and professional experience, as well as any personal projects. The code is available on GitHub, through the link found below."
         technologies={["JavaScript", "ReactJS"]}
+        time_interval="February - March 2020"
+        location="@ Home"
         link="https://github.com/jssm/portfolio"
       />
     </div>
