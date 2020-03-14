@@ -94,6 +94,7 @@ a:hover {
   width: 35%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding-right: 30px;
 }
 

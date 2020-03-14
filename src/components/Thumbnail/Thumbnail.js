@@ -12,6 +12,9 @@ function Thumbnail(props) {
       <h6 className="project-title">{props.title}</h6>
       <div className="project-category">{props.category}</div>
       <div className="project-description">{props.description}</div>
+      <div className="project-technologies">
+        Used technologies: {props.technologies.join(", ")}
+      </div>
       <div className="project-link">
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           Link to project
@@ -20,5 +23,9 @@ function Thumbnail(props) {
     </div>
   );
 }
+
+Thumbnail.defaultProps = {
+  technologies: ["None"]
+};
 
 export default Thumbnail;

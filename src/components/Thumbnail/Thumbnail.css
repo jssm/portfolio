@@ -21,6 +21,12 @@
   padding: 0px 20px;
 }
 
+.project-technologies {
+  text-align: left;
+  font-style: oblique;
+  padding: 10px 20px 0px 20px;
+}
+
 .project-link {
   padding: 10px 20px;
   text-align: center;
