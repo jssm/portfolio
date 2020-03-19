@@ -7,6 +7,17 @@ import "../Thumbnail/Thumbnail.css";
 //props are passed as parameter
 
 function Thumbnail(props) {
+  let linkJSX;
+  if (props.link) {
+    linkJSX = (
+      <div className="project-link">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+          Link to project
+        </a>
+      </div>
+    );
+  }
+
   return (
     <div className="project">
       <h6 className="project-title">{props.title}</h6>
@@ -18,11 +29,7 @@ function Thumbnail(props) {
       <div className="project-technologies">
         Used technologies: {props.technologies.join(", ")}
       </div>
-      <div className="project-link">
-        <a href={props.link} target="_blank" rel="noopener noreferrer">
-          Link to project
-        </a>
-      </div>
+      {linkJSX}
     </div>
   );
 }
