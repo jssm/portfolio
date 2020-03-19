@@ -7,6 +7,7 @@ import "../Thumbnail/Thumbnail.css";
 //props are passed as parameter
 
 function Thumbnail(props) {
+  //Optional link JSX
   let linkJSX;
   if (props.link) {
     linkJSX = (
@@ -27,7 +28,7 @@ function Thumbnail(props) {
       </div>
       <div className="project-description">{props.description}</div>
       <div className="project-technologies">
-        Used technologies: {props.technologies.join(", ")}
+        <span>Used technologies:</span> {props.technologies.join(", ")}
       </div>
       {linkJSX}
     </div>

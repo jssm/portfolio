@@ -12,6 +12,7 @@
 
 .project-category {
   text-align: center;
+  font-style: oblique;
   padding: 0px 20px 10px 20px;
   color: #777;
 }
@@ -25,13 +26,27 @@
 
 .project-description {
   text-align: justify;
-  padding: 0px 20px;
+  padding: 10px 20px;
+}
+
+.project-description > ul {
+  list-style-type: circle;
+  padding: 0px 0px 0px 20px;
+}
+
+.project-description > ul > li > ul {
+  list-style-type: square;
+  padding: 0px 0px 0px 40px;
 }
 
 .project-technologies {
-  text-align: left;
+  text-align: justify;
   font-style: oblique;
   padding: 10px 20px;
+}
+
+.project-technologies > span {
+  font-weight: bold;
 }
 
 .project-link {
