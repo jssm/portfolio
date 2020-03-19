@@ -13,7 +13,7 @@ function Experience() {
       <Thumbnail
         title="Java Consultant (outsourcing in BNP Paribas)"
         category="Closer Consulting"
-        time_interval="June 2014 - September 2016"
+        time_interval="Jun 2014 - Sep 2016"
         location="Lisbon, Portugal"
         description={
           <ul>
@@ -39,7 +39,7 @@ function Experience() {
       <Thumbnail
         title="Software Developer"
         category="Psiengine"
-        time_interval="January 2011 - June 2014"
+        time_interval="Jan 2011 - Jun 2014"
         location="Lisbon, Portugal"
         description={
           <ul>
@@ -67,7 +67,7 @@ function Experience() {
       <Thumbnail
         title="Software Developer Intern (for BSc completion)"
         category="Evolve Space Solutions"
-        time_interval="April 2010 - September 2010"
+        time_interval="Apr 2010 - Sep 2010"
         location="Lisbon, Portugal"
         description={
           <ul>
@@ -82,7 +82,7 @@ function Experience() {
       <Thumbnail
         title="Training in ExtJS 4.2.x/5.0"
         category="Closer Consulting"
-        time_interval="October 2014 - December 2014"
+        time_interval="Oct 2014 - Dec 2014"
         location="Lisbon, Portugal"
         description={
           <ul>
@@ -96,7 +96,7 @@ function Experience() {
       <Thumbnail
         title="MSc in Data Science"
         category="University of Lisbon - Faculty of Sciences"
-        time_interval="September 2017 - November 2019"
+        time_interval="Sep 2017 - Nov 2019"
         location="Lisbon, Portugal"
         description={
           <ul>
@@ -151,7 +151,7 @@ function Experience() {
       <Thumbnail
         title="MSc in Bioinformatics and Computational Biology"
         category="University of Lisbon - Faculty of Sciences"
-        time_interval="September 2016 - June 2017"
+        time_interval="Sep 2016 - Jun 2017"
         location="Lisbon, Portugal"
         description={
           <ul>
@@ -165,7 +165,7 @@ function Experience() {
       <Thumbnail
         title="BSc in Computer Engineering"
         category="New University of Lisbon - Faculty of Sciences and Technology"
-        time_interval="September 2006 - October 2010"
+        time_interval="Sep 2006 - Oct 2010"
         location="Monte da Caparica, Portugal"
         description={
           <ul>

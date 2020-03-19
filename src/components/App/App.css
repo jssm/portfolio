@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  padding-top: 70px; /* to account for the nav-bar */
+  padding-top: 60px; /* to account for the nav-bar */
+  padding-bottom: 30px;
   line-height: 1.5;
 }
 
