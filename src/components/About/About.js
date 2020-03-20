@@ -12,7 +12,10 @@ function About() {
       <img src={photo_image} className="my-photo" alt="JM" />
       <div className="about-text">
         <h2>Hello! My name is Joana</h2>
-        <h4>I'm a Software Engineer who loves to get insights out of data.</h4>
+        <h4>
+          I'm a Software Engineer who loves to learn new technologies and to get
+          insights out of data
+        </h4>
       </div>
     </div>
   );
