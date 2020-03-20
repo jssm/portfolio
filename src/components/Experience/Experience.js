@@ -11,7 +11,7 @@ function Experience() {
     <div className="thumbnail-rail">
       <h5>Professional Experience</h5>
       <Thumbnail
-        title="Java Consultant (outsourcing in BNP Paribas)"
+        title="Java Consultant (outsourcing)"
         category="Closer Consulting"
         time_interval="Jun 2014 - Sep 2016"
         location="Lisbon, Portugal"
